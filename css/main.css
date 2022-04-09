@@ -33,8 +33,11 @@ header .container .logo {
     font-size: 2rem;
 }
 
-header .container nav a {
+header a {
     text-decoration: none;
+}
+
+header .container nav a {
     color: var(--link);
     margin-right: .5rem;
 }
