@@ -145,3 +145,22 @@ footer p {
     text-align: center;
     color: var(--link);
 }
+
+.ir-para-topo {
+    display: none;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    z-index: 1;
+}
+
+.ir-para-topo i {
+    cursor: pointer;
+    font-size: 3rem;
+    color: rgba(255,255,255,.5)
+}
+
+.ir-para-topo i:hover {
+    color: rgba(255,255,255,1);
+    text-shadow: .1rem .1rem black;
+}
