@@ -55,7 +55,7 @@ main .filme-destaque {
     
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(/dio_2022_clone_netflix/img/house_of_cards_fundo.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     height: 20rem;
     display: flex;
     flex-direction: column;
