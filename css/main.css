@@ -1,0 +1,147 @@
+:root {
+    --vermelho:#e50914;
+    --preto: #141414;
+    --link: #aaa;
+    --link-hover: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+header .container .logo {
+    color: var(--vermelho);
+    font-size: 2rem;
+}
+
+header .container nav a {
+    text-decoration: none;
+    color: var(--link);
+    margin-right: .5rem;
+}
+
+header .container nav a:hover {
+    color: var(--link-hover);
+}
+
+.container {
+    margin: 0 1rem
+}
+
+/*
+** Filme Principal
+*/
+
+main .filme-destaque {
+    
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(/img/house_of_cards_fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .filme-destaque .container {
+    width: 70%;
+}
+
+main .filme-destaque .container .titulo {
+    font-size: 1.5rem;
+}
+
+main .filme-destaque .container .descricao {
+    font-size: .75rem;
+    margin-top: .5rem;
+}
+
+main .filme-destaque .container .botoes {
+    margin-top: .5rem;
+}
+
+main .filme-destaque .container .botoes .botao {
+    font-size: .75rem;
+    background-color: rgba(0,0,0,.50);
+    color:white;
+    border: none;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: .25rem;
+    margin-right: .5rem;
+    transition: .3s ease all;
+}
+
+main .filme-destaque .container .botoes .botao:hover {
+    background-color: white;;
+    color: black;
+}
+
+main .filme-destaque .container .botoes .botao i {
+    margin-right: .5rem;
+}
+
+/*
+** Assistir Filme Destaque
+*/
+
+.assistir-filme-destaque iframe {
+    width: 100%;
+    display: none;
+}
+
+/*
+** Carrossel
+*/
+
+.carrossel-filmes {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.carrossel-filmes h3 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: var(--link);
+}
+
+.box-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/*
+** Footer
+*/
+
+footer {
+    margin: 2rem .5rem;
+    
+}
+
+footer p {
+    text-align: center;
+    color: var(--link);
+}

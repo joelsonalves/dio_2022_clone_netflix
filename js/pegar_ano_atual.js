@@ -1,0 +1,1 @@
+document.querySelector('#ano-atual').innerHTML = (new Date()).getFullYear();

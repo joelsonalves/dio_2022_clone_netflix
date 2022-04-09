@@ -1,0 +1,1 @@
+document.querySelector('.assistir-filme-destaque iframe').style.height = `${parseInt(window.innerHeight)}px`;
