@@ -53,7 +53,7 @@ header .container nav a:hover {
 
 main .filme-destaque {
     
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(/img/house_of_cards_fundo.jpg);
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(/dio_2022_clone_netflix/img/house_of_cards_fundo.jpg);
     background-size: cover;
     background-position: center;
     height: 20rem;
@@ -83,7 +83,7 @@ main .filme-destaque .container .botoes {
 main .filme-destaque .container .botoes .botao {
     font-size: .75rem;
     background-color: rgba(0,0,0,.50);
-    color:white;
+    color: white;
     border: none;
     padding: .5rem 1rem;
     margin-top: 1rem;
