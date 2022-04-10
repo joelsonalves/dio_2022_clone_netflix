@@ -109,9 +109,12 @@ main .filme-destaque .container .botoes .botao i {
 ** Assistir Filme Destaque
 */
 
+.assistir-filme-destaque {
+    display: none;
+}
+
 .assistir-filme-destaque iframe {
     width: 100%;
-    display: none;
 }
 
 /*
